@@ -22,4 +22,9 @@ public abstract class Attraction {
     public int getVisitCount() {
         return visitCount;
     }
+
+    public void incrementVisitCount() {
+        visitCount++;
+    }
+
 }
