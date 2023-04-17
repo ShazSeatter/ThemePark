@@ -1,7 +1,10 @@
 package people;
 
+import attractions.RollerCoaster;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static org.junit.Assert.assertEquals;
 
@@ -28,4 +31,6 @@ public class VisitorTest {
     public void hasMoney() {
         assertEquals(40.0, visitor.getMoney(), 0.1);
     }
+
+
 }
